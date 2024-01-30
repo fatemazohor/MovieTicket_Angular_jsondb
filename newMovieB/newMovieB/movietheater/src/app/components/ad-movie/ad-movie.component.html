@@ -1,0 +1,85 @@
+<p>ad-movie works!</p>
+<!-- modal -->
+<div>
+<div class="container">
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="input-group mb-3">
+                <label class="form-label" id="inputGroup-sizing-default">Movie Title </label>
+                <input type="text" class="form-control" formGroupName="title">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Movie Director</span>
+                <input type="text" class="form-control" formGroupName="director">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Category </span>
+                <input type="text" class="form-control" formGroupName="genera">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Movie Duration</span>
+                <input type="text" class="form-control" formGroupName="duration">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Show time</span>
+                <!-- <input type="text" class="form-control" formGroupName="price">  -->
+                <select class="form-select form-select-lg mb-3" formControlName="showtime"
+                  aria-label=".form-select-lg example">
+                  <option value="09:00 am">09:00 am </option>
+                  <option value="03:00 pm">03:00 pm</option>
+                  <option value="07:00 pm">07:00 pm</option>
+                </select>
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Seat Price</span>
+                <input type="text" class="form-control" formGroupName="price">
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Country</span>
+                <input type="text" class="form-control" formGroupName="country">
+              </div>
+
+
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
+                <!-- <input type="text" class="form-control" formGroupName="country">  -->
+                <textarea class="form-control" formGroupName="description"></textarea>
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Poster Link</span>
+                <input type="text" class="form-control" formGroupName="imagelink">
+
+              </div>
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-primary"
+             
+            >Save</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

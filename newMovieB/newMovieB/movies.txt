@@ -1,0 +1,621 @@
+"movies": [
+    {
+      "id": 1,
+      "title": "The Boy and the Heron",
+      "director": "Hayao Miyazaki",
+      "duration": "2 HR 4 MIN",
+      "genera": "ANIMATION",
+      "releaseDate": "NOV 22, 2023",
+      "country": "Japan",
+      "description": "A young boy named Mahito yearning for his mother ventures into a world shared by the living and the dead. There, death comes to an end, and life finds a new beginning. A semi-autobiographical fantasy about life, death, and creation, in tribute to friendship, from the mind of Hayao Miyazaki.",
+      "censorship": "PG13",
+      "trailerLink": "https://youtu.be/t5khm-VjEu4?si=hMaWKodeaKCrtND8",
+      "imageLink": "../../../assets/movie1.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MIGRATION",
+      "director": "Benjamin Renner",
+      "duration": "1 HR 31 MIN",
+      "genera": "ANIMATION",
+      "releaseDate": "DEC 22, 2023",
+      "country": "USA",
+      "description": "Illumination and Universal Pictures present a new original film, MIGRATION, a modern-day comedy following a family of ducks who convince their over-protective father to go on the vacation of a lifetime as they attempt to migrate from New England, through New York City, and ultimately down to the Bahamas. The film is produced by Illumination founder Chris Meledandri and directed by Oscar nominee Benjamin Renner (Ernest et Celestine) with an original screenplay by Mike White (School of Rock, White Lotus).",
+      "censorship": "PG",
+      "trailerLink": "https://youtu.be/hWbfohXIdEU?si=9_C37Ss_BOGmFXRH",
+      "imageLink": "../../../assets/movie2.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Napoleon",
+      "director": "Ridley Scott",
+      "duration": "2 HR 37 MIN",
+      "genera": "ACTION",
+      "releaseDate": "NOV 22, 2023",
+      "country": "USA",
+      "description": "Napoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.",
+      "censorship": "R",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie3.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+{
+      "id": 4,
+      "title": "12 Angry Men (1957)",
+      "director": "Sidney Lumet",
+      "duration": "1 h 36 min",
+      "genera": "Drama",
+      "releaseDate": "April 10, 1957",
+      "country": "USA",
+      "description": "In a hot jury room in New York City, 12 men discuss the innocence or guilt of a teenager accused of murdering his father. As time passes, they begin to question their own values and morals.",
+      "censorship": "R",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie4.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+{
+      "id": 5,
+      "title": "Mr Bean's Holiday",
+      "director": "Steve Bendelack",
+      "duration": "1h 29m",
+      "genera": "Comedies",
+      "releaseDate": "March 30, 2007",
+      "country": "UK",
+      "description": "The hapless Mr. Bean takes a vacation on the French Riviera, where he becomes ensnared in an accidental kidnapping and a case of mistaken identity.",
+      "censorship": "PG",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie5.jpg",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    }
+  ],
+"show":[
+
+{"showID":1
+,  "date": "2023-12-10"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":2
+,  "date": "2023-12-11"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":3
+,  "date": "2023-12-12"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":4
+,  "date": "2023-12-13"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":5
+,  "date": "2023-12-14"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":6
+,  "date": "2023-12-15"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":7
+,  "date": "2023-12-16"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":8
+,  "date": "2023-12-17"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":9
+,  "date": "2023-12-18"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+{"showID":10
+,  "date": "2023-12-19"
+,  "startTime": "03:00pm"
+,  "endTime": "05:00pm"
+,  "movieID": 1
+,  "cinemaHallID": 1},
+
+
+],
+"showseat":[
+{"showSeatID":1,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":1,
+  "bookingID?":""},
+{"showSeatID":2,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":2,
+  "bookingID?":""},
+{"showSeatID":3,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":3,
+  "bookingID?":""},
+{"showSeatID":4,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":4,
+  "bookingID?":""},
+{"showSeatID":5,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":5,
+  "bookingID?":""},
+{"showSeatID":6,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":6,
+  "bookingID?":""},
+{"showSeatID":7,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":7,
+  "bookingID?":""},
+{"showSeatID":8,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":8,
+  "bookingID?":""},
+{"showSeatID":9,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":9,
+  "bookingID?":""},
+{"showSeatID":10,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":10,
+  "bookingID?":""},
+{"showSeatID":11,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":11,
+  "bookingID?":""},
+{"showSeatID":12,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":12,
+  "bookingID?":""},
+{"showSeatID":13,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":13,
+  "bookingID?":""},
+{"showSeatID":14,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":14,
+  "bookingID?":""},
+{"showSeatID":15,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":15,
+  "bookingID?":""},
+{"showSeatID":16,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":16,
+  "bookingID?":""},
+{"showSeatID":17,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":17,
+  "bookingID?":""},
+{"showSeatID":18,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":18,
+  "bookingID?":""},
+{"showSeatID":19,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":19,
+  "bookingID?":""},
+{"showSeatID":20,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":20,
+  "bookingID?":""},
+{"showSeatID":21,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":21,
+  "bookingID?":""},
+{"showSeatID":22,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":22,
+  "bookingID?":""},
+{"showSeatID":23,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":23,
+  "bookingID?":""},
+{"showSeatID":24,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":24,
+  "bookingID?":""},
+{"showSeatID":25,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":25,
+  "bookingID?":""},
+{"showSeatID":26,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":26,
+  "bookingID?":""},
+{"showSeatID":27,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":27,
+  "bookingID?":""},
+{"showSeatID":28,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":28,
+  "bookingID?":""},
+{"showSeatID":29,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":29,
+  "bookingID?":""},
+{"showSeatID":30,
+  "status":"empty",
+  "price":"500",
+  "showID":1,
+  "cinemaSeatID":30,
+  "bookingID?":""},
+
+
+]
+"cinemaseat":[
+{" cinemaSeatID":1
+,  "seatNumber":1
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":2
+,  "seatNumber":2
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":3
+,  "seatNumber":3
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":4
+,  "seatNumber":4
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":5
+,  "seatNumber":5
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":6
+,  "seatNumber":6
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":7
+,  "seatNumber":7
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":8
+,  "seatNumber":8
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":9
+,  "seatNumber":9
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":10
+,  "seatNumber":10
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":11
+,  "seatNumber":11
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":12
+,  "seatNumber":12
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":13
+,  "seatNumber":13
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":14
+,  "seatNumber":14
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":15
+,  "seatNumber":15
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":16
+,  "seatNumber":16
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":17
+,  "seatNumber":17
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":18
+,  "seatNumber":18
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":19
+,  "seatNumber":19
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":20
+,  "seatNumber":20
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":21
+,  "seatNumber":21
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":22
+,  "seatNumber":22
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":23
+,  "seatNumber":23
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":24
+,  "seatNumber":24
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":25
+,  "seatNumber":25
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":26
+,  "seatNumber":26
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":27
+,  "seatNumber":27
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":28
+,  "seatNumber":28
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":29
+,  "seatNumber":29
+,  "type": 1 
+,  "cinemaHallID":1
+},
+{" cinemaSeatID":30
+,  "seatNumber":30
+,  "type": 1 
+,  "cinemaHallID":1
+},
+],
+"products":[
+{"productID": 1,
+  "name": "Soft Drink 0.5L",
+  "price": 25,
+  "description": "Soft Drink 0.5L"
+},
+{"productID": 2,
+  "name": "popCorn",
+  "price": 45,
+  "description": "popCorn"
+},
+{"productID": 3,
+  "name": "snackMenu",
+  "price": 99,
+  "description": "snackMenu"
+}
+]
+

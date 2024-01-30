@@ -1,0 +1,58 @@
+<!-- ngb carsouel -->
+<div class="container">
+    <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let movie of movieDisplay">
+            <div class="picsum-img-wrapper">
+                <img class="product-header-image" src={{movie.imageLink}} alt="Random first slide">
+
+            </div>
+            <div class="carousel-caption ">
+                <h2 class="text-light fs-2 mtiltle">{{movie.title}}</h2>
+                <!-- <h4>Duration</h4>
+                <h5>{{movie.duration}}</h5> -->
+                <h4>Release Date</h4>
+                <h5>{{ movie.releaseDate}} </h5>
+                <!-- <p>{{movie.description}}</p> -->
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<div class="col-md-10 offset-md-1 mt-7">
+
+    <div class="container">
+        <div class="movie-card" *ngFor="let movie of movieDisplay">
+            <a [routerLink]="['/details',movie.id]">
+                <div class="movie-header"
+                    style="background: url({{movie.imageLink}}); background-size:cover; background-position: center; background-repeat: no-repeat; ">
+                </div><!--movie-header-->
+            </a>
+            <div class="movie-content">
+                <div class="movie-content-header">
+                    <a [routerLink]="['/details',movie.id]">
+                        <h3 class="movie-title">{{movie.title}}</h3>
+                    </a>
+                    
+                </div>
+                <!-- <div class="imax-logo"></div> -->
+                <div class="movie-info">
+                    <div class="info-section">
+                        <h4>Duration</h4>
+                        <h5>{{movie.duration}}</h5>
+                    </div><!--date,time-->
+                    <div class="info-section">
+                        <h4>Release Date</h4>
+                        <h5>{{ movie.releaseDate}} </h5>
+                    </div><!--screen-->
+                </div>
+                <div>
+                    <!-- <div style="text-align: center; font-size: larger; color: rgb(13, 77, 77);">
+                        <h3>VIEW SHOW TIME </h3>
+                    </div> -->
+                    <button class="btn btn-success" 
+                    [routerLink]="['/details',movie.id]">Get Ticket</button>
+                </div>
+            </div><!--movie-content-->
+        </div><!--movie-card-->
+    </div><!--container-->
+</div>

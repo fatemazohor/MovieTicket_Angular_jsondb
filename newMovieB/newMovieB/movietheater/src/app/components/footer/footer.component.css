@@ -1,0 +1,25 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer h5{
+    color: #fff;
+    
+}
+.footer p{
+    margin: 0;
+    
+}
+.footer p a{
+    color: #fff;
+}
+.footer-link{
+    text-decoration: none;
+}
+.fa-brands{
+   font-size: 30px;
+   line-height: 80px;
+   margin-right: 4px;
+   color: #f4efef;
+   cursor: pointer;
+}

@@ -1,0 +1,149 @@
+<div>
+  <!-- movie details -->
+  <div class="container">
+    <div class="card mb-4" style="max-width: 1540px;" class="col-md-10 offset-md-2 mt-5" *ngIf="Movie">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="{{Movie.imageLink}}" class="img-fluid rounded-start px-3" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">{{Movie.title}}</h1>
+            <h4 class="card-text">{{Movie.description}}</h4>
+            <h5>Single Ticket Price: {{Movie.price}}</h5>
+            <h3 class="card-text" class="text-muted">Genres : {{Movie.genera}}</h3>
+            <div class="card-text">
+
+              <mat-form-field appearance="fill">
+                <mat-label>Select Date & Time</mat-label>
+                <mat-select [(value)]="selected">
+                  <mat-option *ngFor="let date of week" [value]=date> {{ date |date:'EE, MMM d'}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+
+              <!-- <div *ngFor="let item of shows">
+                <section *ngIf="(selected | date:'EE, MMM d') == (item.date|date:'EE, MMM d')" class="button-container">
+                  <div class="button-row">
+                    <button mat-raised-button color="primary">{{item.startTime}}</button>
+                  </div>
+                </section>
+              </div> -->
+              <div >
+                <section class="button-container">
+                  <div class="button-row">
+                    <button mat-raised-button color="primary">{{Movie.showtime}}</button>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- movie details end -->
+
+
+
+
+  <div class="row col-12 mt-5">
+    <!-- movie ticket -->
+    <div class="col-6 bg-light aling-middle">
+
+      <div class="m-5 py-3 aling-middle">
+        <!-- show case -->
+        <div>
+          <h3 class="py-3">Seat Booking</h3>
+        </div>
+
+        <div class="col-md-8">
+          <ul class="showcase">
+            <li>
+              <div class="seat"></div>
+              <small>N/A</small>
+            </li>
+            <li>
+              <div class="seat selected"></div>
+              <small>Selected</small>
+            </li>
+            <li>
+              <div class="seat occupied"></div>
+              <small>Occupied</small>
+            </li>
+          </ul>
+
+        </div>
+        <!-- show case -->
+        <div class="container ">
+          <div class="row" *ngFor="let rows of movieData.seatRows">
+            {{rows.row}}
+            <div class="seat" [ngClass]="checkIfSeatBooked(rows.row,seat)?'selected':'' "
+              *ngFor="let seat of getSeatArray(rows.noOfSeats)" (click)="bookSeat(rows.row, seat)">{{seat}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- booking form -->
+    <div class="col-6 bg-primary ">
+      <div>
+        <h3 class="py-3">Booking Form</h3>
+      </div>
+      <div class="col-md-8 py-2">
+        <div class="mx-3">
+          <form [formGroup]="formValue">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Movie Name</label>
+              <input type="text" formControlName="Moviename" class="form-control" value="{{Movie.title}}"
+                id="formGroupExampleInput" placeholder="Example input placeholder" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Show Date</label>
+              <input type="text" formControlName="showDate" class="form-control" value="{{selected}}"
+                id="formGroupExampleInput" placeholder="Show Date" readonly>
+            </div>
+            <!-- <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Show Time</label>
+        <input type="text" formControlName="showTime" 
+        value="{{Movie.showtime}}"
+        class="form-control" id="formGroupExampleInput2" placeholder="Show Time"  readonly>
+      </div> -->
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Number of seat</label>
+              <input type="text" formControlName="numberOfSeat" class="form-control" id="formGroupExampleInput2"
+                placeholder="Seat" value="{{bookedSeatList.length}}" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Price</label>
+              <input type="text" formControlName="price" class="form-control" id="formGroupExampleInput2"
+                placeholder="Price" value="{{totalPrice()}}" readonly>
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">TimeStamp</label>
+              <input type="text" formControlName="timstamp" class="form-control" id="formGroupExampleInput2"
+                placeholder="TimeStamp" value="{{getTodayDate()}}" readonly>
+            </div>
+
+            <label for="formGroupExampleInput2" class="form-label">Payment Method</label>
+            <select class="form-select" formControlName="paymentMethod" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">Bikas</option>
+              <option value="2">Rocket</option>
+              <option value="3">Credit-Card</option>
+            </select>
+            <small *ngIf="paymentMethod.invalid && (paymentMethod.dirty || paymentMethod.touched)" class="text-danger">
+              <div *ngIf="paymentMethod.errors?.['required']">Payment Method is requird.</div>
+          </small>
+
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end py-3">
+              <button class="btn btn-success me-md-2" type="submit"
+              [disabled]="formValue.invalid"
+               (click)="submitIticketPay()">Submit</button>
+              <button class="btn btn-warning" type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

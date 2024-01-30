@@ -1,0 +1,34 @@
+
+
+<div class="container aling-middle ">
+  <div class="col-5  mt-3">
+    <h3>Congratulation</h3>
+    <p>Check your email to download movie ticket</p>
+  </div>
+  <div class="col-8 aling-middle">
+    <div class="card mx-5" style="width: 25rem;">
+      <img src="{{movieData.imageLink}}" class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">
+          {{movieData.title}}</h5>
+        <h3 class="card-text">
+          Movie Ticket Details</h3>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Show Date: {{showDate
+          }}</li>
+        <li class="list-group-item">
+          Show Time: {{movieData.showtime}}</li>
+        <li class="list-group-item">
+          Ticket Amount: {{Seattotal}} </li>
+        <li class="list-group-item">
+          Price: {{ticketprice}} </li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link" routerLink="home">Back to Home</a>
+        <!-- <a href="#" class="card-link">Another link</a> -->
+      </div>
+    </div>
+  </div>
+</div>

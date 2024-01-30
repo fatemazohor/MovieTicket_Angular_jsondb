@@ -1,0 +1,722 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Boy and the Heron",
+      "director": "Hayao Miyazaki",
+      "duration": "2 HR 4 MIN",
+      "genera": "ANIMATION",
+      "releaseDate": "NOV 22, 2023",
+      "country": "Japan",
+      "description": "A young boy named Mahito yearning for his mother ventures into a world shared by the living and the dead. There, death comes to an end, and life finds a new beginning. A semi-autobiographical fantasy about life, death, and creation, in tribute to friendship, from the mind of Hayao Miyazaki.",
+      "censorship": "PG13",
+      "trailerLink": "https://youtu.be/t5khm-VjEu4?si=hMaWKodeaKCrtND8",
+      "imageLink": "../../../assets/movie1.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MIGRATION",
+      "director": "Benjamin Renner",
+      "duration": "1 HR 31 MIN",
+      "genera": "ANIMATION",
+      "releaseDate": "DEC 22, 2023",
+      "country": "USA",
+      "description": "Illumination and Universal Pictures present a new original film, MIGRATION, a modern-day comedy following a family of ducks who convince their over-protective father to go on the vacation of a lifetime as they attempt to migrate from New England, through New York City, and ultimately down to the Bahamas. The film is produced by Illumination founder Chris Meledandri and directed by Oscar nominee Benjamin Renner (Ernest et Celestine) with an original screenplay by Mike White (School of Rock, White Lotus).",
+      "censorship": "PG",
+      "trailerLink": "https://youtu.be/hWbfohXIdEU?si=9_C37Ss_BOGmFXRH",
+      "imageLink": "../../../assets/movie2.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Napoleon",
+      "director": "Ridley Scott",
+      "duration": "2 HR 37 MIN",
+      "genera": "ACTION",
+      "releaseDate": "NOV 22, 2023",
+      "country": "USA",
+      "description": "Napoleon is a spectacle-filled action epic that details the checkered rise and fall of the iconic French Emperor Napoleon Bonaparte, played by Oscar®-winner Joaquin Phoenix. Against a stunning backdrop of large-scale filmmaking orchestrated by legendary director Ridley Scott, the film captures Bonaparte's relentless journey to power through the prism of his addictive, volatile relationship with his one true love, Josephine, showcasing his visionary military and political tactics against some of the most dynamic practical battle sequences ever filmed.",
+      "censorship": "R",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie3.webp",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "03:00 pm"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "12 Angry Men (1957)",
+      "director": "Sidney Lumet",
+      "duration": "1 h 36 min",
+      "genera": "Drama",
+      "releaseDate": "April 10, 1957",
+      "country": "USA",
+      "description": "In a hot jury room in New York City, 12 men discuss the innocence or guilt of a teenager accused of murdering his father. As time passes, they begin to question their own values and morals.",
+      "censorship": "R",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie4.jpg",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "07:00 pm"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mr Bean's Holiday",
+      "director": "Steve Bendelack",
+      "duration": "1h 29m",
+      "genera": "Comedies",
+      "releaseDate": "March 30, 2007",
+      "country": "UK",
+      "description": "The hapless Mr. Bean takes a vacation on the French Riviera, where he becomes ensnared in an accidental kidnapping and a case of mistaken identity.",
+      "censorship": "PG",
+      "trailerLink": "https://youtu.be/LIsfMO5Jd_w?si=qJ60oPNcfut0uVKH",
+      "imageLink": "../../../assets/movie5.jpg",
+      "status": "nowPlaying",
+      "price": 500,
+      "showtime": [
+        "09:00 am"
+      ],
+      "seatRows": [
+        {
+          "row": "A",
+          "noOfSeats": 8
+        },
+        {
+          "row": "B",
+          "noOfSeats": 8
+        },
+        {
+          "row": "C",
+          "noOfSeats": 8
+        },
+        {
+          "row": "D",
+          "noOfSeats": 8
+        },
+        {
+          "row": "E",
+          "noOfSeats": 8
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Fatem Tuz Zohora",
+      "email": "fatema@gmail.com",
+      "password": "fatema"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Tanis Haque",
+      "email": "tani@gmail.com",
+      "password": "1472"
+    },
+    {
+      "id": 2,
+      "name": "Javed Karm",
+      "email": "javed@yahool.com",
+      "password": "2583"
+    },
+    {
+      "id": 3,
+      "name": "Yunuse Ali",
+      "email": "yunuse@gmail.com",
+      "password": "yunuse"
+    },
+    {
+      "id": 4,
+      "name": "Wahid Ara",
+      "email": "wah@gmail.com",
+      "password": "wah"
+    }
+  ],
+  "IticketPay": [
+    {
+      "id": 1,
+      "bookedSeat": [
+        {
+          "rowName": "C",
+          "seatNo": 5
+        },
+        {
+          "rowName": "D",
+          "seatNo": 1
+        }
+      ],
+      "userId": 3,
+      "movieName": "The Boy and the Heron",
+      "showDate": "2023-12-12T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-12T06:04:36.806Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 2,
+      "bookedSeat": [
+        {
+          "rowName": "A",
+          "seatNo": 5
+        },
+        {
+          "rowName": "B",
+          "seatNo": 3
+        }
+      ],
+      "userId": 3,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-13T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-12T06:47:27.424Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 3,
+      "bookedSeat": [
+        {
+          "rowName": "B",
+          "seatNo": 7
+        },
+        {
+          "rowName": "D",
+          "seatNo": 3
+        }
+      ],
+      "userId": 3,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-12T07:01:41.427Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-12T07:01:53.582Z",
+      "paymentMethod": "3"
+    },
+    {
+      "id": 4,
+      "bookedSeat": [
+        {
+          "rowName": "D",
+          "seatNo": 7
+        },
+        {
+          "rowName": "D",
+          "seatNo": 3
+        },
+        {
+          "rowName": "B",
+          "seatNo": 4
+        },
+        {
+          "rowName": "B",
+          "seatNo": 7
+        },
+        {
+          "rowName": "E",
+          "seatNo": 4
+        },
+        {
+          "rowName": "C",
+          "seatNo": 0
+        }
+      ],
+      "userId": 3,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-14T18:00:00.000Z",
+      "numberOfSeat": 6,
+      "price": 3000,
+      "timstamp": "2023-12-12T07:09:33.790Z",
+      "paymentMethod": ""
+    },
+    {
+      "id": 5,
+      "bookedSeat": [
+        {
+          "rowName": "C",
+          "seatNo": 6
+        },
+        {
+          "rowName": "C",
+          "seatNo": 2
+        },
+        {
+          "rowName": "B",
+          "seatNo": 2
+        },
+        {
+          "rowName": "E",
+          "seatNo": 3
+        }
+      ],
+      "userId": 2,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-15T18:00:00.000Z",
+      "numberOfSeat": 4,
+      "price": 2000,
+      "timstamp": "2023-12-12T08:57:03.203Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 6,
+      "bookedSeat": [
+        {
+          "rowName": "B",
+          "seatNo": 6
+        },
+        {
+          "rowName": "B",
+          "seatNo": 1
+        },
+        {
+          "rowName": "B",
+          "seatNo": 7
+        }
+      ],
+      "userId": 1,
+      "movieName": "Napoleon",
+      "showDate": "2023-12-18T18:00:00.000Z",
+      "numberOfSeat": 3,
+      "price": 1500,
+      "timstamp": "2023-12-13T04:38:07.219Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 7,
+      "bookedSeat": [
+        {
+          "rowName": "B",
+          "seatNo": 5
+        },
+        {
+          "rowName": "C",
+          "seatNo": 6
+        },
+        {
+          "rowName": "B",
+          "seatNo": 7
+        }
+      ],
+      "userId": 1,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-17T18:00:00.000Z",
+      "numberOfSeat": 3,
+      "price": 1500,
+      "timstamp": "2023-12-15T03:51:07.408Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 8,
+      "bookedSeat": [
+        {
+          "rowName": "D",
+          "seatNo": 5
+        }
+      ],
+      "userId": 1,
+      "movieName": "Napoleon",
+      "showDate": "2023-12-20T18:00:00.000Z",
+      "numberOfSeat": 1,
+      "price": 500,
+      "timstamp": "2023-12-15T03:54:17.815Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 9,
+      "bookedSeat": [
+        {
+          "rowName": "D",
+          "seatNo": 7
+        },
+        {
+          "rowName": "C",
+          "seatNo": 2
+        }
+      ],
+      "userId": 1,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-17T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-15T04:03:26.536Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 10,
+      "bookedSeat": [
+        {
+          "rowName": "D",
+          "seatNo": 7
+        }
+      ],
+      "userId": 1,
+      "movieName": "The Boy and the Heron",
+      "showDate": "2023-12-17T18:00:00.000Z",
+      "numberOfSeat": 1,
+      "price": 500,
+      "timstamp": "2023-12-15T04:38:41.651Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 11,
+      "bookedSeat": [
+        {
+          "rowName": "E",
+          "seatNo": 6
+        }
+      ],
+      "userId": 1,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-15T18:00:00.000Z",
+      "numberOfSeat": 1,
+      "price": 500,
+      "timstamp": "2023-12-15T05:07:19.044Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 12,
+      "bookedSeat": [
+        {
+          "rowName": "E",
+          "seatNo": 7
+        }
+      ],
+      "userId": 1,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-20T18:00:00.000Z",
+      "numberOfSeat": 1,
+      "price": 500,
+      "timstamp": "2023-12-15T09:27:05.517Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 13,
+      "bookedSeat": [
+        {
+          "rowName": "D",
+          "seatNo": 6
+        },
+        {
+          "rowName": "D",
+          "seatNo": 7
+        }
+      ],
+      "userId": 4,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-20T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-15T09:31:44.426Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 14,
+      "bookedSeat": [
+        {
+          "rowName": "C",
+          "seatNo": 5
+        },
+        {
+          "rowName": "C",
+          "seatNo": 6
+        }
+      ],
+      "userId": 4,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-20T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-15T09:37:46.069Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 15,
+      "bookedSeat": [
+        {
+          "rowName": "B",
+          "seatNo": 3
+        },
+        {
+          "rowName": "B",
+          "seatNo": 4
+        }
+      ],
+      "userId": 4,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-19T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-17T03:05:49.990Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 16,
+      "bookedSeat": [
+        {
+          "rowName": "A",
+          "seatNo": 6
+        },
+        {
+          "rowName": "A",
+          "seatNo": 7
+        }
+      ],
+      "userId": 3,
+      "movieName": "The Boy and the Heron",
+      "showDate": "2023-12-22T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-17T04:51:30.464Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 17,
+      "bookedSeat": [
+        {
+          "rowName": "C",
+          "seatNo": 4
+        },
+        {
+          "rowName": "B",
+          "seatNo": 3
+        }
+      ],
+      "userId": 2,
+      "movieName": "Napoleon",
+      "showDate": "2023-12-19T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-17T04:54:01.744Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 18,
+      "bookedSeat": [
+        {
+          "rowName": "C",
+          "seatNo": 2
+        },
+        {
+          "rowName": "C",
+          "seatNo": 3
+        }
+      ],
+      "userId": 3,
+      "movieName": "Mr Bean's Holiday",
+      "showDate": "2023-12-19T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-17T05:47:44.060Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 19,
+      "bookedSeat": [
+        {
+          "rowName": "E",
+          "seatNo": 7
+        }
+      ],
+      "userId": 3,
+      "movieName": "MIGRATION",
+      "showDate": "2023-12-17T18:00:00.000Z",
+      "numberOfSeat": 1,
+      "price": 500,
+      "timstamp": "2023-12-17T05:48:14.627Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 20,
+      "bookedSeat": [
+        {
+          "rowName": "B",
+          "seatNo": 6
+        },
+        {
+          "rowName": "B",
+          "seatNo": 5
+        },
+        {
+          "rowName": "B",
+          "seatNo": 7
+        }
+      ],
+      "userId": 3,
+      "movieName": "12 Angry Men (1957)",
+      "showDate": "2023-12-22T18:00:00.000Z",
+      "numberOfSeat": 3,
+      "price": 1500,
+      "timstamp": "2023-12-17T06:07:11.387Z",
+      "paymentMethod": "1"
+    },
+    {
+      "id": 21,
+      "bookedSeat": [
+        {
+          "rowName": "A",
+          "seatNo": 7
+        },
+        {
+          "rowName": "A",
+          "seatNo": 6
+        }
+      ],
+      "userId": 3,
+      "movieName": "Mr Bean's Holiday",
+      "showDate": "2023-12-21T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2023-12-17T06:20:26.153Z",
+      "paymentMethod": "2"
+    },
+    {
+      "id": 22,
+      "bookedSeat": [
+        {
+          "rowName": "A",
+          "seatNo": 5
+        },
+        {
+          "rowName": "A",
+          "seatNo": 4
+        }
+      ],
+      "userId": 1,
+      "movieName": "The Boy and the Heron",
+      "showDate": "2024-02-02T18:00:00.000Z",
+      "numberOfSeat": 2,
+      "price": 1000,
+      "timstamp": "2024-01-30T07:26:33.897Z",
+      "paymentMethod": "2"
+    }
+  ],
+  "cinemaHall": [
+    {
+      "cinemaHallID": 1,
+      "name": "CinemaHall1",
+      "cinemaSeats": "ICinemaSeat",
+      "show": "IShow",
+      "cinemaID": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

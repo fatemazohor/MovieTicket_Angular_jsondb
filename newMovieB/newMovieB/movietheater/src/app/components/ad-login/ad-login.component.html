@@ -1,0 +1,45 @@
+
+
+<div class="container mt-5">
+    <div class=" loingForm">
+        <div class="container aling-middle ">
+            <div class="card" style="width: 23rem;">
+                <div class="card-body">
+                    <h3>Admin Login</h3>
+                    <form [formGroup]="formValue">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" formControlName="email" placeholder="Enter your email"
+                                class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                            <small *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+                                <div *ngIf="email.errors?.['required']">Email is requird.</div>
+                                <div *ngIf="email.errors?.['email']">Email should be valid.</div>
+                            </small>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" formControlName="password" class="form-control"
+                                id="exampleInputPassword1" placeholder="Enter your password">
+
+                            <small *ngIf="password.invalid && (password.dirty || password.touched)" class="text-danger">
+                                <div *ngIf="password.errors?.['required']">Password is requird.</div>
+                            </small>
+                        </div>
+
+                        <button type="submit" (click)="adlogin()" 
+                        
+                        class="btn btn-primary "
+                            [disabled]="formValue.invalid">Login</button>
+                        
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

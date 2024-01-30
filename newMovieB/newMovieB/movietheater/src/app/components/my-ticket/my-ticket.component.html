@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="roe">
+        <h4>My Ticket List</h4>
+    </div>
+    <div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th >Serial</th>
+                <th >Movie Name</th>
+                <th >Show Date</th>
+                <th >Number of Seat</th>
+                <th >Total Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let ticket of ticketData let i=index">
+                
+                <td>{{i+1}} </td>
+                <td>{{ticket.movieName}}</td>
+                <td>{{ticket.showDate}}</td>
+                <td>{{ticket.numberOfSeat}}</td>
+                <td>{{ticket.price}}</td>
+                
+              </tr>
+              
+            
+            </tbody>
+          </table>
+    </div>
+</div>
