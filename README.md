@@ -1,14 +1,11 @@
 # Movie Ticket Booking
 
-Merchandise management system with Spring Boot, Thymeleaf and MySQL.
-Different clothing materials (style codes) and TechPacks are created by the merchandise in accordance with the designer plan.Customers place orders for specific materials, specifying the size and quantity needed.The business will then produce a Bill of Material (BOM) that includes the cost of each material by size and labor.
-The company also buys raw materials based on how much it requires for production.
-For a comprehensive picture of the business process, the order, sales, and revenue are displayed on the dashboard together with the order, buy, and stock tables.
+A straightforward ticket booking system featuring user and admin login capabilities. Users have access to their booking history, while admins can generate sales reports based on ticket purchases and update the movie roster.
 -----------------   ---------------------------------------------
-## There are 1 users in the system
+## There are 2 users in the system
 
 - Administrator
-- User
+- Customer
 
 ## The Role of Administrator is
 1. Create new Show Time.
